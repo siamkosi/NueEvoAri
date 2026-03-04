@@ -157,7 +157,7 @@ function App() {
                     NUE EVO ARI
                   </span>
                 </h1>
-                <p className="text-slate-400 text-sm tracking-widest uppercase">รายงานวิเคราะห์ความเสียหาย</p>
+                <p className="text-slate-400 text-sm tracking-widest uppercase">รายงานสรุปความเสียหาย ข้อบกพร่อง และค่าใช้จ่ายที่บานปลาย (Loss, Damage, Defect & Rework)</p>
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ function App() {
         </div>
         <div>
           <p className="text-red-300 font-semibold">ความเสียหายเกินมาตรฐาน</p>
-          <p className="text-red-200 text-opacity-70 text-sm">Loss/Damage 28.7% — ปกติไม่ควรเกิน 3-5% ต้องมีการ Post-mortem อย่างจริงจัง</p>
+          <p className="text-red-200 text-opacity-70 text-sm">Loss/Damage 24.2% — ปกติไม่ควรเกิน 3-5% ต้องมีการ Post-mortem อย่างจริงจัง</p>
         </div>
       </div>
 
