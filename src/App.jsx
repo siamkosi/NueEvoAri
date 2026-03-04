@@ -3,7 +3,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { AlertTriangle, TrendingDown, Package, Wrench, Clock, Users, ChevronDown, ChevronUp, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 const damageData = [
-  { name: 'สีน้ำ', budget: 1.81, damage: 2.93, percent: -162.24, category: 'critical' },
+  { name: 'สีน้ำ', budget: 1.81, damage: 1.13, percent: -62.24, category: 'critical' },
   { name: 'ปูนกาว', budget: 1.38, damage: 0.57, percent: -41.07, category: 'critical' },
   { name: 'กระจกเงา', budget: 1.37, damage: 0.38, percent: -28.03, category: 'critical' },
   { name: 'Digital Lock', budget: 1.68, damage: 0.22, percent: -12.88, category: 'warning' },
@@ -117,8 +117,8 @@ function App() {
   const [activeTab, setActiveTab] = useState('overview');
 
   const totalBudget = 40.6;
-  const totalDamage = 11.63;
-  const damagePercent = 28.7;
+  const totalDamage = 9.83;
+  const damagePercent = 24.2;
 
   const getBarColor = (category) => {
     switch (category) {
